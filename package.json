@@ -4,6 +4,8 @@
   "description": "This is package used to check if point on map is located within Polish borders.",
   "main": "index.js",
   "scripts": {
+    "build": "npm run lint && babel ./src -d ./lib",
+    "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/123mieto/point-is-polish/issues"
   },
-  "homepage": "https://github.com/123mieto/point-is-polish#readme"
+  "homepage": "https://github.com/123mieto/point-is-polish#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.4.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^13.1.0"
+  }
 }
