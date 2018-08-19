@@ -1,12 +1,12 @@
 {
   "name": "point-is-polish",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This is package used to check if point on map is located within Polish borders.",
   "main": "index.js",
   "scripts": {
     "build": "npm run lint && babel ./src -d ./lib",
     "lint": "eslint ./src",
-    "test": "nyc mocha --require babel-core/register"
+    "test": "nyc mocha --require babel-core/register",
   },
   "repository": {
     "type": "git",

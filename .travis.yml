@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- node
+before_deploy:
+- npm run build
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: marcinmdev@gmail.com
+  api_key:
+    secure: sWFh/UHq9C/oljAxBhpYlI/k20AgIdC0FzLGJnk8G4bI6oN+BiX7epHJoTcdtRwJrEi7o71OP1Sv0Y3o+0Q9+9Jo33ko8NdatXKrJy1D+/ecZ+fTkwi0ojdlABiAu5Brf2WLFlzSmm7yHNSMRJMQdTSZuLbphoMWlnWUHMAFz2oP3PztJmB27C7YxU1JCJZC4eEk8Iak8qaKWeRmDE2dGYPKL24znKSQLQ1oxPkD0dlXQYFsFpjGcigJLLD76RJt1aO3AkCHVmZ9X7NOI+l67lYtEO702mrOjx64Gb5sQguKRk0k6YNTPa7gAuT8a1sZIKxq7AOCLCFn/XswOeFewptvboUm2THk49/BhihhaTNYMPYD25Sv3MrFP4AoZj/KCY9mbDZ4DH+wIf85isqvHK7ppMpUahf7MwM8kvKzi+ZIFzlFI95BoWzB4eeHF5y378lZ5pYlG/MTspx1dvrbTcqAX3jA5wR9+1pTu0222KaEztF/3OcsfSiuujhJX52iB63T+OI89N+Xt3KRiHhOf39rMCmGRXhmmz/D2jQj2qfowfNxZNT7Bq94PVtG57gSRPvoxHljMLAziB4k+HwgdC3HmxPl72/TEOpRJpM7h0rHZAJl/FYSI99HFXZt38utaeMYXlABpg6rsS0XhuioiXs3yTg790XiuX51MVrkl+w=
+  on:
+    tags: true
+    repo: 123mieto/point-is-polish
