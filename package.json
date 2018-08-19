@@ -1,0 +1,20 @@
+{
+  "name": "point-is-polish",
+  "version": "1.0.0",
+  "description": "This is package used to check if point on map is located within Polish borders.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/123mieto/point-is-polish.git"
+  },
+  "keywords": [],
+  "author": "Marcin Mikłas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/123mieto/point-is-polish/issues"
+  },
+  "homepage": "https://github.com/123mieto/point-is-polish#readme"
+}
