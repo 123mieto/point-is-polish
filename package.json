@@ -1,6 +1,6 @@
 {
   "name": "point-is-polish",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "This is package used to check if point on map is located within Polish borders.",
   "main": "index.js",
   "scripts": {
